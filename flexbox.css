@@ -1,0 +1,73 @@
+body {
+  text-align: center;
+}
+
+div {
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  border: 2px solid black;
+
+  /*(1) height: 100px;
+  width: 150px; */
+}
+
+#Container {
+  width: 800px;
+  height: 200px;
+  display: flex;
+
+  /* Center Align */
+  /* align-items: center;
+    justify-content: center; */
+
+  /* The flex items will shrink and it won't expand outside the flexbox */
+  /* flex-direction: column; */
+
+  /* The flex items will shrink but it will expand outside the flexbox 
+  as the content inside them(font) is bigger than flexbox height*/
+  /* flex-direction: column;
+  height: 100px; */
+
+  /* justify-content: aligns flex items along main-axis */
+  /* align-items: aligns flex items  along cross-axis */
+  /* align-content: alignment of space between & around the content along cross-axis */
+
+  /* (1)height: 600px;
+  width: 600px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center; */
+
+  height: 600px;
+  width: 600px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  /* align-self: aligns the specific item along the cross-axis
+  And the priority of this property is higher than any of the above properties */
+}
+
+#box1 {
+  background-color: red;
+}
+
+#box2 {
+  background-color: blue;
+  /*(1) height: 200px; */
+}
+
+#box3 {
+  background-color: purple;
+  /*(1) height: 75px; */
+}
+
+#box4 {
+  background-color: pink;
+}
+
+#box5 {
+  background-color: violet;
+}
