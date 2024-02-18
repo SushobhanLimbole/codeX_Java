@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    height: 100vh;
+    background-color: red;
+}
+
+footer{
+    height: 50vh;
+    background-color:blue;
+}
+
+.navbar{
+    display: flex;
+}
+
+.nav-links{
+    display: flex;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.nav-logo{
+    height: 100px;
+    width: 100px;
+    
+}

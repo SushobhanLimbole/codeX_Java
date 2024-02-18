@@ -1,0 +1,35 @@
+#navbar{
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.909);
+    border-radius: 10px;
+}
+
+li{
+    display: inline-block;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#outer{
+    position: absolute;
+    left: 35%;
+    background-color: red;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inner{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+}

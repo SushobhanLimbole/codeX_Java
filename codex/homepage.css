@@ -1,0 +1,138 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+#navbar {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  background-color: #272829;
+  color: white;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+h2 {
+  margin: 25px 0px 0px 10px;
+}
+
+.Logos {
+  height: 300px;
+  width: 1500px;
+  display: flex;
+  margin: 10px 0px 20px 0px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.item {
+  height: 200px;
+  width: 200px;
+  transition: all;
+  transition-duration: 1s;
+  border: 2px solid black;
+  background-color: red;
+  margin-right: 50px;
+  /* padding: 100px; */
+}
+
+#java {
+  height: 200px;
+  width: 200px;
+  transition: all;
+  transition-duration: 1s;
+  border: 2px solid black;
+  background-color: red;
+  margin-right: 50px;
+  /* padding: 100px; */
+}
+
+#java:hover{
+  background-color: aqua;
+}
+
+#dart {
+  border: 2px solid black;
+  background-color: blue;
+  margin-right: 50px;
+  padding: 100px;
+}
+
+#python {
+  border: 2px solid black;
+  background-color: violet;
+  margin-right: 50px;
+  padding: 100px;
+}
+
+#php {
+  border: 2px solid black;
+  background-color: purple;
+  margin-right: 50px;
+  padding: 100px;
+}
+
+#flutter {
+  border: 2px solid black;
+  background-color: purple;
+  margin-right: 50px;
+  padding: 100px;
+}
+
+#spring {
+  border: 2px solid black;
+  background-color: purple;
+  margin-right: 50px;
+  padding: 100px;
+}
+
+#hibernate {
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+  background-color: purple;
+  margin-right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 100px; */
+}
+
+#react {
+  border: 2px solid black;
+  background-color: purple;
+  margin-right: 50px;
+  padding: 100px;
+}
+
+#mysql {
+  border: 2px solid black;
+  background-color: purple;
+  margin-right: 50px;
+  padding: 100px;
+}
+
+#mongodb {
+  border: 2px solid black;
+  background-color: purple;
+  margin-right: 50px;
+  padding: 100px;
+}
+
+#oracle {
+  border: 2px solid black;
+  background-color: purple;
+  margin-right: 50px;
+  padding: 100px;
+}
+
+#mariadb {
+  border: 2px solid black;
+  background-color: purple;
+  margin-right: 50px;
+  padding: 100px;
+}
+

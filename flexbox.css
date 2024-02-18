@@ -40,6 +40,10 @@ div {
   align-items: center;
   align-content: center; */
 
+  /* align-content: aligns the content along cross-axis
+   while using align-items the items will align but there will be space btw
+    items because of wrapping to control the spacing we can use align-content */
+
   height: 600px;
   width: 600px;
   flex-wrap: wrap;
@@ -48,6 +52,12 @@ div {
 
   /* align-self: aligns the specific item along the cross-axis
   And the priority of this property is higher than any of the above properties */
+
+  /* flex-grow: how much a flex item will grow relative to the rest of the flex items
+  if space is available */
+
+  /* flex-shrink: how much a flex item will shrink relative to the rest of the flex items
+  if space is available */
 }
 
 #box1 {
@@ -70,4 +80,33 @@ div {
 
 #box5 {
   background-color: violet;
+}
+
+/* media queries are used for respnsive websites */
+/* at width 1796 box2 will change its background color */
+@media (width: 1796px){
+  #box1{
+    background-color: brown;
+  }
+}
+
+/* min-width: does changes for given width above (>=) */
+@media (min-width: 400px){
+  #box2{
+    background-color: black;
+  }
+}
+
+/* max-width: does changes for width less than or equal (<=) */
+@media (max-width: 800px){
+  #box3{
+    background-color: yellow;
+  }
+}
+
+/* range */
+@media (min-width: 400px) and (max-width:600px){
+  #box4{
+    background-color: aqua;
+  }
 }
