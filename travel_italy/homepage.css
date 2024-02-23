@@ -1,0 +1,178 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+.bg {
+  height: 100vh;
+  background-image: url("./images/bg.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+footer {
+  height: 50vh;
+  /* background-color:blue; */
+}
+
+.navbar {
+  /* position: fixed; */
+  /* width: 100vmax; */
+  /* z-index: 1; */
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1c1c1c;
+}
+
+.nav-tag {
+  height: 180px;
+  width: 127px;
+  position: relative;
+  z-index: 1;
+  left: 50px;
+  background-color: #ff2929;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-logo {
+  height: 80px;
+  width: 100px;
+  background-size: cover;
+  position: absolute;
+  left: 15px;
+  /* top: 30px; */
+  bottom: 40px;
+}
+
+.nav-tag h2 {
+  position: absolute;
+  bottom: 6px;
+  left: 40px;
+  color: #1c1c1c;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-links li {
+  list-style: none;
+  margin-right: 45px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: large;
+  color: white;
+}
+
+.nav-links li a:hover {
+  color: #ff2929;
+}
+
+.first-section {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  background-image: url(https://tourismmedia.italia.it/is/image/mitur/landscape_1-100-1?wid=2880&hei=1280&fit=constrain,1&fmt=webp);
+}
+
+.first-section h1 {
+  width: 70%;
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  /* font-weight: 700; */
+}
+
+#title {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Protest Revolution", sans-serif;
+  color: rgb(5, 129, 5);
+}
+
+.countries {
+  height: 370px;
+  align-items: center;
+  margin-top: 28px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#intro-box h3 {
+  font-family: "Petit Formal Script", cursive;
+}
+
+#intro-box {
+  height: 270px;
+  width: 200px;
+  background-color: rgb(249, 245, 245);
+  border-radius: 25px;
+  text-align: center;
+  padding: 10px;
+}
+
+.box {
+  height: 270px;
+  width: 200px;
+  padding: 10px;
+  border-radius: 25px;
+  text-align: start;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.756);
+  transition: all;
+  transition-duration: 0.3s;
+}
+
+.box span {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgba(255, 255, 255, 0.888);
+  font-weight: 500;
+  position: relative;
+  top: 90%;
+  left: 5%;
+}
+
+.box:hover {
+  height: 300px;
+  width: 230px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.756);
+}
+
+#box1 {
+  background-image: url("./images/bg.jpg");
+  background-size: cover;
+}
+
+#box2 {
+  background-image: url("./images/aus.jpg");
+  background-size: cover;
+}
+
+#box3 {
+  background-image: url("./images/ind.jpg");
+  background-size: cover;
+}
+
+#box4 {
+  background-image: url("./images/ita.jpg");
+  background-size: cover;
+}
+
+#box5 {
+  background-image: url("./images/jap.jpg");
+  background-size: cover;
+}
