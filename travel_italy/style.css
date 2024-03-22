@@ -1,0 +1,103 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Gurmukhi:wght@100..900&display=swap');
+
+.noto-sans gurmukhi {
+    font-family: "Noto Sans Gurmukhi", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+body {
+    background-image: url("collo.jpg");
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.-2.6436);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.3px);
+    -webkit-backdrop-filter: blur(6.3px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    display: flex;
+    /* background-color: white; */
+    flex-direction: column;
+    height: 55%;
+    width: 30%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.login-container h1{
+    color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.top-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 80%;
+    width: 100%;
+}
+
+.input-container{
+    height: 10%;
+    width: 50%;
+    background-color: transparent;
+    padding: 3px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.553);
+}
+
+.login-button{
+    height: 10%;
+    width: 30%;
+    background-color: #00A9FF;
+    color: #CDF5FD;
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+
+.checkbox{
+    color: rgba(255, 255, 255, 0.936);
+    font-family: "Noto Sans Gurmukhi", sans-serif;
+    font-size: 85%;
+}
+
+.bottom-container{
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom-container > span{
+    color: rgba(255, 255, 255, 0.936);
+    font-family: "Noto Sans Gurmukhi", sans-serif;
+    font-size: 85%;
+}
+
+.attri-psw{
+    color: #3205f9;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: "Noto Sans Gurmukhi", sans-serif;
+    font-size: 95%;
+}

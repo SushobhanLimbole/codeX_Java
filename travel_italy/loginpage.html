@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .montserrat {
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 250;
+        font-style: normal;
+      }
+    </style>
+  </head>
+  <body>
+    <form class="login-container">
+      <div class="top-container">
+        <h1>LOGIN</h1>
+        <br />
+        <!-- <label for="username"><b>Username</b></label> -->
+        <input
+          class="input-container"
+          type="text"
+          placeholder=" Enter Username"
+          name="uname"
+          required
+        /><br />
+
+        <!-- <label for="psw"><b>Password</b></label> -->
+        <input
+          class="input-container"
+          type="password"
+          placeholder=" Enter Password"
+          name="psw"
+          required
+        /><br />
+
+        <div class="bottom-container">
+          <span class="psw">Forgot <a class="attri-psw" href="#">password?</a></span>
+        </div>
+        <br>
+
+        <button class="login-button" type="submit">Login</button><br />
+        <label class="checkbox">
+          <input type="checkbox" checked="checked" name="remember" /> Remember
+          me </label
+        ><br />
+      </div>
+
+    </form>
+  </body>
+</html>
