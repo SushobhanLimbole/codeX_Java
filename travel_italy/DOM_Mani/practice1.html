@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        body{
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #E178C5;
+        }
+
+        button{
+            margin-top: 10px;
+            padding: 2px 4px;
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="h1" style="font-size: 50px; color: white;">Hello</h1>
+    <button onclick="change()">click</button>
+    <!-- <h2 class="h1">Jello</h2>
+    <h2 class="h1">Jello</h2>
+    <h2 class="h1">Jello</h2>
+    <h2 class="h1">Jello</h2>
+    <h2 class="h1">Jello</h2> -->
+    <script>
+        // let domId = document.getElementById('hello');
+        // domId.innerHTML = "King Pavan Mali";
+
+        // let domClass = document.getElementsByClassName('h1');
+        // for (let index = 0; index < dom.length; index++) {
+        //     domClass[index].innerHTML = 'King';
+        // }
+
+        // let domQuerySelector = document.querySelector('h2');
+        // domQuerySelector.innerHTML = 'Query Selector';
+
+        // let domQuerySelectorAll = document.querySelectorAll('h2');
+        // for (let index = 0; index < dom.length; index++) {
+        //     domQuerySelectorAll[index].innerHTML = 'Query SelectorAll';
+        // }
+
+        function change(){
+            let dom = document.getElementsByClassName('h1');
+            if (dom[0].style.display != 'none') {
+                dom[0].style.display = 'none';
+            } else {
+                dom[0].style.display = 'block';
+            }
+        }
+    </script>
+</body>
+</html>
